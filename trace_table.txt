@@ -1,0 +1,74 @@
+TRACE TABLE
+===========
+
+Department List (Sorted):
+Backend, Development, Finance, Frontend, HR, IT, Testing
+
+
+1. SEARCH FOR HR
+----------------
+
+Linear Search:
+Step 1: Compare HR with Backend      -> Not Found
+Step 2: Compare HR with Development  -> Not Found
+Step 3: Compare HR with Finance      -> Not Found
+Step 4: Compare HR with Frontend     -> Not Found
+Step 5: Compare HR with HR           -> Found
+
+Total Comparisons = 5
+
+
+Binary Search:
+Step 1: Middle element = Frontend
+        HR > Frontend -> Search right half
+
+Step 2: Middle element = HR
+        HR = HR -> Found
+
+Total Comparisons = 2
+
+
+2. SEARCH FOR IT
+----------------
+
+Linear Search:
+Step 1: Compare IT with Backend      -> Not Found
+Step 2: Compare IT with Development  -> Not Found
+Step 3: Compare IT with Finance      -> Not Found
+Step 4: Compare IT with Frontend     -> Not Found
+Step 5: Compare IT with HR           -> Not Found
+Step 6: Compare IT with IT           -> Found
+
+Total Comparisons = 6
+
+
+Binary Search:
+Step 1: Middle element = Frontend
+        IT > Frontend -> Search right half
+
+Step 2: Middle element = IT
+        IT = IT -> Found
+
+Total Comparisons = 2
+
+
+3. SEARCH FOR Backend
+---------------------
+
+Linear Search:
+Step 1: Compare Backend with Backend -> Found
+
+Total Comparisons = 1
+
+
+Binary Search:
+Step 1: Middle element = Frontend
+        Backend < Frontend -> Search left half
+
+Step 2: Middle element = Development
+        Backend < Development -> Search left half
+
+Step 3: Middle element = Backend
+        Backend = Backend -> Found
+
+Total Comparisons = 3
