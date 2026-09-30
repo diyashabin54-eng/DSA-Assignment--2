@@ -1,0 +1,133 @@
+COMPLEXITY ANALYSIS
+===================
+
+Question: Organizational Hierarchy
+
+
+1. TREE CONSTRUCTION
+--------------------
+
+The organizational hierarchy is represented using a tree.
+
+Hierarchy:
+
+CEO
+├── HR
+├── Finance
+└── IT
+    ├── Development
+    │   ├── Frontend
+    │   └── Backend
+    └── Testing
+
+
+Number of nodes = 8
+
+Tree height = 3 edges from CEO to the deepest node.
+
+Tree construction requires visiting/inserting each department.
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(n)
+
+
+2. LEVEL-ORDER TRAVERSAL
+------------------------
+
+Level-order traversal visits nodes level by level.
+
+Traversal:
+
+CEO
+HR
+Finance
+IT
+Development
+Testing
+Frontend
+Backend
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(n)
+
+A queue is used for level-order traversal.
+
+
+3. LINEAR SEARCH
+----------------
+
+Linear search checks department names one by one.
+
+Best Case:
+O(1)
+
+Average Case:
+O(n)
+
+Worst Case:
+O(n)
+
+Space Complexity:
+O(1)
+
+
+4. BINARY SEARCH
+----------------
+
+Binary search repeatedly divides the sorted list into two halves.
+
+Best Case:
+O(1)
+
+Average Case:
+O(log n)
+
+Worst Case:
+O(log n)
+
+Space Complexity:
+O(1)
+
+Binary search requires the department names to be sorted.
+
+
+5. TREE HEIGHT
+--------------
+
+The height of the organizational tree is 3.
+
+Height:
+3 edges
+
+The tree is not completely balanced because some departments have
+more levels than others.
+
+
+6. SEARCH COMPARISON
+--------------------
+
+Linear Search:
+Checks elements sequentially.
+
+Binary Search:
+Checks the middle element and eliminates half of the remaining
+elements after each comparison.
+
+
+7. OVERALL ANALYSIS
+-------------------
+
+Tree representation is suitable for showing the organizational
+relationship because each department can be represented as a child
+of its parent department.
+
+For department searching, binary search can require fewer
+comparisons when the department list is maintained in sorted order.
+
+Linear search is simpler and can be used directly without sorting.
