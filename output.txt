@@ -1,0 +1,66 @@
+1. New Customer Arrival
+2. Assign Available Agent
+3. Display Waiting Queue
+4. Exit
+Enter your choice: 1
+Enter Customer ID: 101
+Customer 101 added to the waiting queue.
+===== CALL CENTER QUEUE=====
+1. New Customer Arrival
+2. Assign Available Agent
+3. Display Waiting Queue
+4. Exit
+Enter your choice: 1
+Enter Customer ID: 201
+Customer 201 added to the waiting queue.
+===== CALL CENTER QUEUE -----
+1. New Customer Arrival
+2. Assign Available Agent
+3. Display Waiting Queue
+4. Exit
+Enter your choice: 1
+Enter Customer ID: 301
+Customer 301 added to the waiting queue.
+===== CALL CENTER QUEUE=====
+1. New Customer Arrival
+2. Assign Available Agent
+3. Display Waiting Queue
+4. Exit
+Enter your choice: 3
+Waiting Customers:
+Customer ID: 101
+Customer ID: 201
+Customer ID: 301
+1. New Customer Arrival
+2. Assign Available Agent
+3. Display Waiting Queue
+4. Exit
+Enter your choice: 2
+Customer 101 is assigned to the available agent.
+CALL CENTER QUEUE =====
+1. New Customer Arrival
+2. Assign Available Agent
+3. Display Waiting Queue
+4. Exit
+Enter your choice: 2
+Customer 201 is assigned to the available agent.
+CALL CENTER QUEUE =====
+1. New Customer Arrival
+2. Assign Available Agent
+3. Display Waiting Queue
+4. Exit
+Enter your choice: 2
+Customer 301 is assigned to the available agent.
+CALL CENTER QUEUE =====
+1. New Customer Arrival
+2. Assign Available Agent
+3. Display Waiting Queue
+4. Exit
+Enter your choice: 3
+Waiting queue is empty.
+CALL CENTER QUEUE ===
+1. New Customer Arrival
+2. Assign Available Agent
+3. Display Waiting Queue
+Exit
+Enter your choice: 4 Program terminated.
