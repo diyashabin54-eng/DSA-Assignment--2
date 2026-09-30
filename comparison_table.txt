@@ -1,0 +1,12 @@
+COMPARISON TABLE
+================
+
+Criterion              Linear Search        Binary Search
+-----------------------------------------------------------
+Data Structure         Array                Sorted Array
+Search Method          Sequential           Divide and Conquer
+Best Case              O(1)                 O(1)
+Average Case           O(n)                 O(log n)
+Worst Case             O(n)                 O(log n)
+Space Complexity       O(1)                 O(1)
+Data Requirement       No sorting required   Sorted data required
